@@ -10,6 +10,8 @@
 
 // git merge --abort                                           // merge lie abort garni
 
+// git branch -d features/navbar                               // delete the git branch kina ki yo feature ko kam sakkiyo aba branch rakhera k matalb
+
 // --- branching commands end ---
 
 
@@ -51,9 +53,3 @@
 // --- git conflict end ---
 
 
-// --- git merge ---
-
-// aba merge garna ko lagi chai
-// git merge branch/name command use garni
-
-// --- git merge end---

@@ -137,6 +137,19 @@
 // git log --oneline --graph                                   // yo ni same ho --oneline garyo vani one line ma dinxa natra tannai information dinxa
 //                                                             // --graph le chai branch ko diagram pani dinxa
 
+// git branch                                                  // kati ota branch xa tyo dinxa
+
+// git branch features/navbar                                  // git branch le new branch banauxa features/navbar chai tyo branch ko name ho
+
+// git switch features/navbar                                  // branch switch garna ko lahi git switch ani branch ko name
+
+// git merge features/navbar                                   // yo cha8i branch lie merge garni, git merge ani branch ko name
+
+// git merge --abort                                           // merge lie abort garni
+
+// git branch -d features/navbar                               // delete the git branch kina ki yo feature ko kam sakkiyo aba branch rakhera k matalb
+
+// git branch -m main                                          // rename the git branch to the main
 
 // --- other commands end ---
 

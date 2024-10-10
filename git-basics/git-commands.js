@@ -55,6 +55,12 @@
 
 // git merge --abort                                           // merge lie abort garni
 
+// git branch -d features/navbar                               // delete the git branch kina ki yo feature ko kam sakkiyo aba branch rakhera k matalb
+
+// git branch -m main                                          // rename the git branch to the main
+
+// git push -u origin main                                     // github ko main branch ma push garni current changes
+
 // --- other commands end ---
 
 
