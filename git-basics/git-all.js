@@ -65,31 +65,7 @@
 // git vneko chai afnai pc ma project lie mange garni ho re, like afnai pc ma project manage garni
 
 
-
-// ----- git commands ----------
-
-// local porject i.e just yo project ko lagi configuration
-// git config --local user.email "verceldeploys@proton.me"    // yo chai tmro git ko email, jun account ma push garnu xa
-// git config --local user.name "rocks"                       // yo chai name, like yo user le push greko vnera yo name show hunxa
-// git config --local code.editor "code --wait"               // yo vneko chai khi push pull garda error ayo vani tyo file chai vs code ma open gara
-// git config --local core.autocrlf "input"                   // yo chai line break re, like windows ra mac ma diffenert hunxa re, yesle chai convert garxa re
-// git config --local -e                                      // yo command le chai we can check/edit hamro configuration ko value
-
-
-// git config --global user.email "gesfkhdghkm@proton.me"
-// git config --global code.editor "code --wait"
-// git config --global user.name "rocks"
-// git config --global core.autocrlf "input"
-// git config --global -e
-
-
-// git stages
-// U - Untracked                   Git is not managing or tracking your file, git lie yo file xa vanni nai tha xaina, git doesnt care abot this file
-// A - Added or staged             Git chai aware xa ki yesto pani file xa yo repository ma vnera
-// C - Comitted                    Git is tracking, git lie tha xa yo file xa ani yo file ma khi pani chage vyo vani yo git le track gari rako hunxa
-
-
-
+// ---git status ---
 
 // hami jahile pani kunai new folder banauxam hai, tyo folder baneko xa vanera git lie tha hunnxa, tesma hamile jati pani file rakham
 // tyo ni git lie tha hunnxa, tesaike hami git lie initialise garxam
@@ -101,3 +77,82 @@
 // after initialising by default all files are untracked
 
 // so when we do git add. we are giving git permission ki to sab files harulie track gara
+
+
+// hamile commit grepaxi git ko lagi aba sab files new files jasto hunxa unless me make changes in them
+// like tini haru, na untracked hunxa, na added hunxa
+
+// so git status command le only yesto files ko status hunxa jun chai commited xaina, kita commited xa but modified vko xa
+// already commited files ko khi status didaina
+// because commit grepaxi git ko ligi sab files new file jasto hunxa, like sab thik xa yo file jasto hunu parni testai xa 
+
+// --- git status end ---
+
+
+
+
+// ----- git commands ----------
+
+// -- config commands --
+// local porject i.e just yo project ko lagi configuration
+
+// git config --local user.email "verceldeploys@proton.me"    // yo chai tmro git ko email, jun account ma push garnu xa
+
+// git config --local user.name "rocks"                       // yo chai name, like yo user le push greko vnera yo name show hunxa
+
+// git config --local code.editor "code --wait"               // yo vneko chai khi push pull garda error ayo vani tyo file chai vs code ma open gara
+
+// git config --local core.autocrlf "input"                   // yo chai line break re, like windows ra mac ma diffenert hunxa re, yesle chai convert garxa re
+
+// git config --local -e                                      // yo command le chai we can check/edit hamro configuration ko value
+
+
+// git config --global user.email "gesfkhdghkm@proton.me"
+// git config --global code.editor "code --wait"
+// git config --global user.name "rocks"
+// git config --global core.autocrlf "input"
+// git config --global -e
+// -- config commands  end --
+
+// --- other commands ---
+
+// git init                                                    // yo repo lie git le initialise greko
+
+// git add .   or git add                                      // jati pani files xa tyo sab lie add gara to Added or staged
+
+// git add -u                                                  // add just changed or modified or delted files to added or staged state
+
+// git commit -m "Your commit message"                         // yo chai commit garni command re
+
+// git log --oneline                                           // aba hamile total kati ota check point xa tyo hernu xa vni yo command use garni
+//                                                             // yesle chai checkpoint ko unique id pani dinxa which helps to go back to that checkpoint
+
+// git reset --hard HEAD~1                                     // garyo vani chai hami pervious wala commit ma janxam, like current HEAD position change garxa
+//                                                             // HEAD~1 here, 1 vneko chai step ho, HEAD~2 garyo vani hami 2 step paxi janxam i.e 2 commit agadi janxam
+
+// git status -s                                               // Sab files haru ko status dinxa like untracked xa, added xa, modified xa and so on
+//                                                             // -s vneko chai just chiyeko cheeze deu, git status garyo vani full kati dherai details dinxa
+//                                                             // -s garyo vani chai simple status dinxa
+
+// git log --oneline --graph                                   // yo ni same ho --oneline garyo vani one line ma dinxa natra tannai information dinxa
+//                                                             // --graph le chai branch ko diagram pani dinxa
+
+
+// --- other commands end ---
+
+
+
+// git stages
+// U - Untracked                   Git is not managing or tracking your file, git lie yo file xa vanni nai tha xaina, git doesnt care abot this file
+// A - Added or staged             Git chai aware xa ki yesto pani file xa yo repository ma vnera
+// C - Comitted                    Git is tracking, git lie tha xa yo file xa ani yo file ma khi pani chage vyo vani yo git le track gari rako hunxa
+// M - Modified                    Git le track gari rako file modified vko xa, aba feri eslie add gara jasto
+// D - Deleted                     Git le track gari rako file delete vyo vani yo marked hunxa
+// R - Renamed                     Git le track gari rako file renamed vyo ki ta new folder virtra gyo
+// AM - Added and Modified         Git le track gari rako file added xa ani hamile teslie modifuy pani garyo vani git status ma AM auxa
+
+// --- git commands end ---
+
+
+
+

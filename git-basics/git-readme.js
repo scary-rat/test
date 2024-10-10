@@ -64,3 +64,26 @@
 
 // git vneko chai afnai pc ma project lie mange garni ho re, like afnai pc ma project manage garni
 
+
+// ---git status ---
+
+// hami jahile pani kunai new folder banauxam hai, tyo folder baneko xa vanera git lie tha hunnxa, tesma hamile jati pani file rakham
+// tyo ni git lie tha hunnxa, tesaike hami git lie initialise garxam
+// initialise grey paxi balla git lie tha hunxa ki yo folder xa, git lie permission milxa ki yo folder ma jati pani aru files ra folders haru hunxa
+// tesma afko kam garna permission milxa, like tara just git lie tha hunxa ki yo folder xa ani yesma yesto yesto files ra folders haru xan vnera
+// so git le tiniharu sab lie Untrack stage ma halxa
+// kina ki Git lie tha matra xa ki yeto files xa, git lie yo file xa vnera tha pauni permission matra mileko xa
+// git lie tyo sab lie track garni permission chai mileko xaina
+// after initialising by default all files are untracked
+
+// so when we do git add. we are giving git permission ki to sab files harulie track gara
+
+
+// hamile commit grepaxi git ko lagi aba sab files new files jasto hunxa unless me make changes in them
+// like tini haru, na untracked hunxa, na added hunxa
+
+// so git status command le only yesto files ko status hunxa jun chai commited xaina, kita commited xa but modified vko xa
+// already commited files ko khi status didaina
+// because commit grepaxi git ko ligi sab files new file jasto hunxa, like sab thik xa yo file jasto hunu parni testai xa 
+
+// --- git status end ---
