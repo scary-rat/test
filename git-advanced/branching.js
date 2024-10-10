@@ -8,6 +8,8 @@
 
 // git merge features/navbar                                   // yo cha8i branch lie merge garni, git merge ani branch ko name
 
+// git merge --abort                                           // merge lie abort garni
+
 // --- branching commands end ---
 
 

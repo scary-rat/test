@@ -51,6 +51,10 @@
 
 // git switch features/navbar                                  // branch switch garna ko lahi git switch ani branch ko name
 
+// git merge features/navbar                                   // yo cha8i branch lie merge garni, git merge ani branch ko name
+
+// git merge --abort                                           // merge lie abort garni
+
 // --- other commands end ---
 
 
